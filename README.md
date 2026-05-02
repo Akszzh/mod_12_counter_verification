@@ -51,8 +51,8 @@ make covhtml
 
 ### 📸 Coverage Reports
 
-![Coverage Report](images/image (1).png)
-![Coverage Report](images/image (2).png)
+![Coverage Report](images/image1.png)
+![Coverage Report](images/image2.png)
 
 ---
 
