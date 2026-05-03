@@ -15,12 +15,13 @@ This project implements and verifies a **Mod-12 Counter** using **Verilog HDL**.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
-* `src/` → Design files
-* `tb/` → Testbench
-* `sim/` → Simulation scripts
-* `coverage/` → Coverage screenshots
+- env → Interface & transaction
+- env_lib → Verification components
+- test → Testbench files
+- rtl → Design code
+- sim → Simulation scripts
 
 ---
 
