@@ -14,7 +14,7 @@ always @(posedge clock)
 
         else begin
                 if(mode == 1) begin
-                        if(count == 12) begin
+                    if(count == 11) begin
                                 count <= 0;
                         end
                         else begin
@@ -23,7 +23,7 @@ always @(posedge clock)
                 end
                 else if(mode == 0)begin
                         if(count == 0) begin
-                                count <= 12;
+                                count <= 11;
                         end
                         else begin
                                 count <= count - 1;
