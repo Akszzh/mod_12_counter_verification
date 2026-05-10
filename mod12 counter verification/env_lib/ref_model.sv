@@ -33,14 +33,14 @@ class ref_model;
                 else
                         begin
                         if(data2rm.mode == 1) begin
-                                if(ref_arr == 12)
+                                if(ref_arr == 11)
                                         ref_arr <= 0;
                                 else
                                         ref_arr <= ref_arr + 1;
                         end
                         else begin
                                 if(ref_arr == 0)
-                                        ref_arr <= 12;
+                                        ref_arr <= 11;
                                 else
                                         ref_arr <= ref_arr - 1;
                                 end
