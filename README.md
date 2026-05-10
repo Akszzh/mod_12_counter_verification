@@ -43,7 +43,7 @@ make covhtml
 
 ## 📊 Coverage Analysis
 
-* Achieved **99.22% coverage**
+* Achieved **97.22% coverage**
 * Coverage includes:
 
   * Branch Coverage
@@ -59,7 +59,7 @@ make covhtml
 
 ## ⚠️ Coverage Limitation (Remaining 0.78%)
 
-The remaining **0.78% coverage** is due to the following condition:
+The remaining **2.78% coverage** is due to the following condition:
 
 ```verilog id="4kqz9w"
 if ($test$plusargs("TEST1"))
